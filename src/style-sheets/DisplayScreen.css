@@ -1,0 +1,20 @@
+#display-screen {
+    min-height: 20px;
+    font-family: digital;
+    font-size: 20px;
+    text-align: right;
+    vertical-align: text-top;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word
+}
+
+.operation-screen {
+    min-height: 40px;
+    margin: 0;
+    color: orange;
+}
+
+#display {
+    color: white;
+}

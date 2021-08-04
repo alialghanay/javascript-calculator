@@ -1,0 +1,18 @@
+.prim-continer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2.5px;
+    margin: 2.5px;
+}
+
+.button {
+    background-color: #4d4d4d;
+    border: none;
+    color: #fff;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #5c5b5b;
+}

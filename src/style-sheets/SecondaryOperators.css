@@ -1,0 +1,33 @@
+.sec-continer {
+    display: grid;
+    grid-gap: 2.5px;
+    grid-template-areas: 
+    "clear clear"
+    "equals decimal";
+    margin: 2.5px;
+}
+
+.button {
+    background-color: #4d4d4d;
+    border: none;
+    color: #fff;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #5c5b5b;
+}
+
+#clear {
+    background-color: #39ac39;
+    grid-area: clear;
+}
+
+#equals {
+    background-color: #004466;
+    grid-area: equals;
+}
+
+#decimal {
+    grid-area: decimal;
+}
